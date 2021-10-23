@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\PreTypes">
+      <UniqueIdentifier>{6b3103fa-f265-4e1d-b1ce-0a70ec8b53fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\PreTypes">
+      <UniqueIdentifier>{ebac325e-b088-460d-9ec1-cd9f15ff9415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\ILDL_Types">
+      <UniqueIdentifier>{6ffd9620-e703-48c9-ba92-b8a2ec7fec62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\ILDL_Types">
+      <UniqueIdentifier>{4739f77f-9eb0-4cc0-8c76-2df7958ccfd6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestByteStream.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClientEGI.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="EGI_Client.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="UInt16_PreType.cpp">
+      <Filter>Quelldateien\PreTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UInt8_PreType.cpp">
+      <Filter>Quelldateien\PreTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Int8_PreType.cpp">
+      <Filter>Quelldateien\PreTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="PreTypes.cpp">
+      <Filter>Quelldateien\PreTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="ILDL_Types.cpp">
+      <Filter>Quelldateien\ILDL_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="ILDL_Types_V.cpp">
+      <Filter>Quelldateien\ILDL_Types</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestByteStream.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="EGI_Client.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="UInt16_PreType.h">
+      <Filter>Headerdateien\PreTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UInt8_PreType.h">
+      <Filter>Headerdateien\PreTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Int8_PreType.h">
+      <Filter>Headerdateien\PreTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="PreTypes.h">
+      <Filter>Headerdateien\PreTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="ILDL_Types.h">
+      <Filter>Headerdateien\ILDL_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ILDL_Types_V.h">
+      <Filter>Headerdateien\ILDL_Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
